@@ -1,0 +1,96 @@
+/* layoutstyles.css */
+
+/* Header */
+.commonheader {
+    background-color: #f5f4ef;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+  
+  .subheader {
+    font-size: 1.2rem;
+    float: right;
+  }
+  
+  .subheader a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  .subheader a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Main body */
+  .mainbody {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .justify {
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .resumelistheading {
+    font-weight: bold;
+  }
+  
+  #edu {
+    margin-top: 2rem;
+  }
+  
+  #exp {
+    margin-top: 2rem;
+  }
+  
+  #ski {
+    margin-top: 2rem;
+  }
+  
+  .rightmenu {
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 0.1rem;
+    padding: 1rem;
+
+  }
+  
+  .rightmenu h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .rightmenu p {
+    margin-top: 0.5rem;
+  }
+  
+  .rightmenu a {
+    color: #333;
+  }
+  
+  .rightmenu a:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  .common.footer {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1.5rem 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd;
+  }
+  .heading {
+    font-size: 15px;
+    text-align: center;
+  }

@@ -1,0 +1,110 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a common style for header and footer */
+  .common {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #f5f4ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the subheader links */
+  .subheader a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  /* Style the header image and text */
+  .headerpic {
+    position: relative;
+    text-align: center;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .headerpic img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .headerpic button {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff021f3;
+    color: rgb(0, 0, 0);
+    border-radius: 16px;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .headerpic button:hover {
+    background-color: #16a085;
+  }
+  
+  .headerpictxt {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+  }
+  
+  /* Style the gallery section */
+  .gallerytitle {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3rem 0;
+  }
+  
+  .gallery img {
+    margin: 1rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    box-shadow: 2px 2px #333333;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  .cntrtxt {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f5f4ef;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+  

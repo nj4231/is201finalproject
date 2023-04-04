@@ -1,0 +1,59 @@
+    /* Noah Johnson
+    Section 003
+    March 31 2023 */
+body {
+    font-family: PT 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(46, 46, 46);
+    background-color: #f5f4ef;
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {color: black;
+    text-decoration: none;
+}
+/* changes the look when hovering over a specific link */
+a:hover {
+    text-decoration: underline;
+    /* font-weight: bold;
+    font-size: 18px; */
+}
+/* changes the look of a link once visited */
+a:visited {
+    color: black;
+}
+/* changes list heading style */
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+/* other style adjustments when needed */
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+/* index page background */
+.homelbltr {
+    background-position: top left;
+}
+.homelbl {
+    background-position: top right;
+}
+/* specific class of style */
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+
+    /* border: 1px solid red; */
+}
+.box2 {
+    padding: 5px;
+}
+/* wouldnt normally use just the word box
+Margin adjusts the margin specifically for what is classed as box3 */
+.box3 {
+    margin: 50px;
+}
